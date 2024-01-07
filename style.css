@@ -264,12 +264,10 @@ gap: 10px
   margin-top: 7px;
 }
 
-.text-with-check {
+.text-with-emoji {
   display: flex;
   gap: 5px;
-  background: #f1f1f1;
-  margin-top: 7px;
-  border-radius: 10px;
+  align-items: center;
 }
 
 .check {
@@ -371,10 +369,24 @@ gap: 10px
   display: flex;
   align-items: center;
   gap: 20px;
+
   position: absolute;
   bottom: 10px;
   right: 20px;
   left: 20px;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.send-btn {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+
+  height: 20px;
 }
 
 .clip {
